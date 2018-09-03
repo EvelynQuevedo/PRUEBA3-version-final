@@ -1,5 +1,5 @@
-NOMBRE: EVELYN YULIANA QUEVEDO REYES
-URL: https://github.com/FaztWeb/crud-nodejs-mysql
+NOMBRE:EVELYNYULIANA QUEVEDO REYES
+URL:https://github.com/FaztWeb/crud-nodejs-mysql
 # CRUD Nodejs and Mysql
 this is a basic application crud that uses nodejs in the backend, mysql as database.
 
