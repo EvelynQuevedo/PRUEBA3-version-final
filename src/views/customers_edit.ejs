@@ -1,0 +1,30 @@
+<% include partials/_header %>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-5 offset-md-3 card">
+      <div class="card-body">
+        <form action="/update/<%= data.idBiblioteca %>" method="POST">
+          <div class="form-group">
+            <input type="text" name="direccion" value="<%= data.direccion%>" placeholder="IdBiblioteca" class="form-control" autofocus>
+          </div>
+          <div class="form-group">
+            <input type="text" name="director" value="<%= data.director%>" placeholder="direccion" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="text" name="telefono" value="<%= data.telefono%>" placeholder="director" class="form-control">
+          </div>
+           <div class="form-group">
+            <input type="text" name="tipo" value="<%= data.tipo%>" placeholder="telefono" class="form-control">
+          </div>
+
+          <button type="submit" class="btn btn-primary">
+            Guardar 
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<% include partials/_footer %>
